@@ -171,6 +171,7 @@ file comparators, endian transformation classes, and much more.
       <timezone>America/New_York</timezone>
       <properties>
         <picUrl>https://people.apache.org/~ggregory/img/garydgregory80.png</picUrl>
+ 
       </properties>
     </developer>
     <developer>
@@ -301,7 +302,9 @@ file comparators, endian transformation classes, and much more.
   </dependencies>
 
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
+      <sonar.organization>kostandina-d</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+ <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <commons.componentid>io</commons.componentid>
     <commons.module.name>org.apache.commons.io</commons.module.name>
